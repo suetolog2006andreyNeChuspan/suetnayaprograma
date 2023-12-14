@@ -6,7 +6,7 @@ class TriangleExistence
 {
     static void Main()
     {
-        Console.WriteLine("Enter the sides of the triangle:");
+        Console.WriteLine("Введите стороны треугольника:");
 
         int a = Convert.ToInt32(Console.ReadLine());
         int b = Convert.ToInt32(Console.ReadLine());
@@ -14,11 +14,11 @@ class TriangleExistence
 
         if (a + b > c && b + c > a && a + c > b)
         {
-            Console.WriteLine("The triangle exists.");
+            Console.WriteLine("Треугольник существует.");
         }
         else
         {
-            Console.WriteLine("The triangle does not exist.");
+            Console.WriteLine("Треугольник не существует.");
         }
     }
 }
