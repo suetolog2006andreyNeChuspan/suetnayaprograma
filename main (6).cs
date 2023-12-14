@@ -6,7 +6,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Enter two numbers:");
+        Console.WriteLine("Введите два числа:");
 
         int num1 = Convert.ToInt32(Console.ReadLine());
 
@@ -16,11 +16,11 @@ class Program
 
         if (product > 50)
         {
-            Console.WriteLine("The product is greater than 50. The result after dividing it by 2 is: " + (product / 2));
+            Console.WriteLine("Произведение больше 50. Результат после деления на 2 равен: " + (product / 2));
         }
         else
         {
-            Console.WriteLine("The product is not greater than 50. The result after adding 25 to it is: " + (product + 25));
+            Console.WriteLine("Произведение не больше 50. Результат после прибавления к нему 25 равен: " + (product + 25));
         }
     }
 }
